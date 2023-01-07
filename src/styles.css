@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+.heading {
+  color: rgb(187, 61, 199);
+}
+
+button {
+  padding: 10px;
+  margin: 4px 15px;
+  font-weight: bold;
+  font-size: x-large;
+  border: 2px solid rgb(187, 61, 199);
+  border-radius: 20px;
+}
+
+.container {
+  text-align: center;
+  /* background-color: red; */
+  margin: auto;
+}
+
+li {
+  border: 2px solid rgb(187, 61, 199);
+  list-style-type: none;
+  padding: 10px 88px;
+  margin: 10px 16rem;
+  border-radius: 20px;
+}
+
+.name {
+  font-size: large;
+  /* text-align: left; */
+  font-weight: bolder;
+}
+
+.rating {
+  font-weight: bold;
+}
+
+hr {
+  margin: 14px 12rem;
+  color: rgb(187, 61, 199);
+  background-color: rgb(187, 61, 199);
+  padding: 0.2px;
+  text-align: center;
+}
+
+button:hover,
+li:hover {
+  background-color: rgb(187, 61, 199);
+  color: white;
+  cursor: pointer;
+}
